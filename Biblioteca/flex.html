@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Flex Box</title>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            border: solid black 2px;
+            height: 100px;
+            align-items: center;
+            flex-wrap: wrap-reverse;
+        }
+        .bloco-1{
+            background-color: red;
+            margin: 2px;
+  
+        } 
+        .bloco-2 {
+            background-color: blue;
+            margin: 2px;
+            
+        }
+        .bloco-3 {
+            background-color: green;
+            margin: 2px;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <section class="container">
+        <div class="bloco-1">1</div>
+        <div class="bloco-2">2</div>
+        <div class="bloco-3">3</div>
+        <div class="bloco-1">1</div>
+        <div class="bloco-2">2</div>
+        <div class="bloco-3">3</div>
+        <div style="background-color: aqua;" class="bloco-1">1</div>
+        <div class="bloco-2">2</div>
+        <div class="bloco-3">3</div>
+        <div class="bloco-1">1</div>
+        <div class="bloco-2">2</div>
+        <div class="bloco-3">3</div>
+    </section>
+</body>
+
+</html>

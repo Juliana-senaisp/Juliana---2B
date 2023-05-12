@@ -1,0 +1,46 @@
+body {
+    background-color: chocolate; 
+    /*Muda a cor do fundo*/
+}
+
+h1 {
+    color: cadetblue; /*Cor do texto*/
+    text-align: center; 
+    /*Alinha o texto no centro*/
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /*Troca a fonte do texto*/
+    text-align: justify;
+    /*Deixa o texto justificado*/
+}
+
+.texto { /*Uso . para chamar uma classe*/
+    color: darkgreen;
+}
+
+#titulo { /*Uso # para chamar um ID*/
+    color: darkcyan;
+}
+
+a {
+    text-decoration: none; /*Remove a formatação padrão da tag*/
+    font-size: 50px; /*Muda o tamanho do texto*/
+    background-color: aqua;
+    color: black;
+    border-radius: 7px; /*Arredonda a borda*/
+    border-color: blueviolet; /*Cor da borda*/
+    border-style: solid; /*Estilo da borda*/
+    border-width: 3px; /*Largura da borda*/
+    padding: 5px 20px 40px 60px;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
+
+div {
+    text-align: center;
+}
